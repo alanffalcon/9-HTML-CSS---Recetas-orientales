@@ -1,0 +1,424 @@
+/* VARIABLES */
+
+:root {
+    --red: #B40025;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* HEADER */
+
+nav {
+    position: fixed;
+    background-color: var(--red);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 3;
+}
+
+.a-nav {
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.h1-nav {
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Bellefair', serif;
+}
+
+/* MAIN TOP */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.m-1 {
+    width: 99.7%;
+    height: 100vh;
+    background-color: #E8E8E8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.circle {
+    width: 25%;
+    height: 50%;
+    background-color: var(--red);
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+}
+
+.main-top-div {
+    width: 25%;
+    height: 25%;
+    max-height: 50%;
+    border: solid yellow;
+    z-index: 1;
+    height: 40%;
+
+}
+
+.main-top-div:nth-child(3) {
+    height: 20%;
+    margin-bottom: 140px;
+}
+
+.main-top-div:nth-child(6) {
+    height: 40%;
+    position: absolute;
+    top: 300px;
+    
+}
+
+.main-top-div:nth-child(7) {
+    width: 32%;
+    height: 40%;
+}
+
+/* CAJA 1 */
+
+.caja1 {
+    border: none;
+}
+
+.h-c1 {
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.t-c1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.i-c1 {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    margin-top: -20px;
+    padding: 0;
+}
+
+/* CAJA 2 */
+
+.caja2 {
+    border: none;
+    font-size: 2.5rem;
+    font-family: 'Bellefair', serif;
+    text-align: center;
+}
+
+.h-caja2 {
+    font-family: 'Stylish', sans-serif;
+}
+
+/* CAJA 3 */
+
+.caja3 {
+    border: none;
+}
+
+.h-c3 {
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.t-c3 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.i-c3 {
+    width: 110%;
+    height: 90%;
+    margin-top: -30px;
+    margin-left: -20px;
+    object-fit: cover;
+    padding: 0;
+}
+
+/* CAJA 4 */
+
+.caja4 {
+    border: none;
+}
+
+.h-c4 {
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.t-c4 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.i-c4 {
+    width: 80%;
+    height: 60%;
+    object-fit: none;
+    margin-left: 60px;
+    padding: 0;
+}
+
+/* CAJA 5 */
+
+.main-top-div:nth-child(5) {
+    width: 32%;
+    height: 40%;
+    margin-right: 300px;
+}
+
+.caja5 {
+    border: none;
+}
+
+.h-c5 {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: -30px;
+}
+
+.t-c5 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.ramen1 {
+    width: 55%;
+    height: 80%;
+    object-fit: fill;
+    margin: 0 0 0 110px;
+    padding: 0;
+}
+
+/* CAJA 6 */
+
+.caja6 {
+    border: none;
+}
+
+.h-c6 {
+    padding-top: 10px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.t-c6 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.i-c6 {
+    width: 70%;
+    height: 90%;
+    margin-top: -30px;
+    margin-left: 70px;
+    object-fit: contain;
+    padding: 0;
+}
+
+/* MAIN 2 - RAMEN*/
+
+.m-2 {
+    width: 99.7%;
+    height: 100vh;
+    background-color: #2d2828;
+    display: grid;
+}
+
+.r-title {
+    color: white;
+}
+
+.h-r-t {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 6rem;
+    font-family: 'Stylish', sans-serif;
+}
+
+.p-r-t {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.info-img-receta {
+    display: flex;
+    width: 100%;
+}
+
+.info-e-img {
+    width: 40%;
+}
+
+.r-info {
+}
+
+.i-t {
+    width: 40%;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.4rem;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.infor {
+    color: white;
+    font-family: 'Stylish', sans-serif;
+    font-size: 1.7rem;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.r-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-i-1 {
+    width: 33.3%;
+    height: 100%;
+}
+
+.r-i-2 {
+    width: 33.3%;
+    height: 100%;
+}
+
+.r-i-3 {
+    width: 33.3%;
+    height: 100%;
+}
+
+.d-i-1 {
+    width: 100%;
+}
+
+.d-i-2 {
+    width: 90%;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.d-i-3 {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.r-receta {
+    width: 60%;
+}
+
+.lista-ing {
+    display: flex;
+}
+
+.ingre-t {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+p {
+    color: white;
+}
+
+.dos-p {
+    padding-left: 15px;
+    font-size: 1.3rem;
+    padding-top: 0;
+}
+
+ul {
+    list-style: none;
+    margin-left: 25px;
+}
+
+li {
+     color: white;
+     font-size: 1.2rem;
+     padding-left: 25px;
+}
+
+.p-tt {
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+ol {
+    list-style: none;
+}
+
+.sobre-nosotros {
+    width: 99.7%;
+    height: 100vh;
+    background-image: url("https://images7.alphacoders.com/107/1075101.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid black;
+}
+
+.yo {
+    margin-top: 80px;
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Stylish', sans-serif;
+}
+
+.presentacion {
+    color: black;
+    margin: 20px;
+    margin-top: 50px;
+    font-size: 3rem;
+    font-family: 'Bellefair', serif;
+}
+
+.for-cont {
+    font-style: italic;
+    font-size: 2.5rem;
+    font-family: 'Bellefair', serif;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: 50px;
+
+}
+
+.foot-li {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.3rem;
+    color: rgb(24, 7, 7);
+}
